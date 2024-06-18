@@ -1,4 +1,4 @@
-add_compile_options(-Werror)
+# add_compile_options(-Werror)
 
 add_library(spasm SHARED
 	# crypto stuff

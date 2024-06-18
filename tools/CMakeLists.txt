@@ -40,3 +40,8 @@ target_link_libraries(solve PUBLIC spasm spasmtools ${ARGP})
 
 add_executable(check_cert check_cert.c)
 target_link_libraries(check_cert PUBLIC spasm spasmtools ${ARGP})
+
+############# sandbox
+
+add_executable(rowreduce rowreduce.c)
+target_link_libraries(rowreduce PUBLIC spasm spasmtools)
