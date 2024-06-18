@@ -3,3 +3,4 @@ test/scripts/random_matrix_B.sage.py
 test/scripts/random_matrix_C.sage.py
 test/scripts/random_matrix_D.sage.py
 build/*
+garage/*
